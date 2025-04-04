@@ -1,0 +1,57 @@
+/* DEBUG */
+* {
+    background-color: rgb(191, 248, 255);
+    color: black;
+    /*border: 2px solid rgb(170, 170, 170);*/
+} 
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+nav {
+    text-align: center;
+    color: black;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    margin: 0 40px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.hero {
+    position: relative;
+    background-image: url("https://64.media.tumblr.com/fb82095969a4b7c0fe43db3b796aa116/tumblr_inline_nst7948wFd1r02mf8_1280.jpg");
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.ocean {
+    position: relative;
+    background-image: url("https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2018/07/HEADER2-1.jpg?fit=1300%2C731&ssl=1");
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
